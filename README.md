@@ -26,6 +26,7 @@ uv run main.py
 - **1.4 — Business Prompt Builder:** User input, f-strings, and personalized AI prompt generation.
 - **1.5 — AI Model Profile Card:** Python data types, type checking, and AI token cost calculations.
 - **1.6 — Prompt Cleaner:** String methods, text formatting, token estimation, and prompt optimization.
+- **1.7 — Smart Model Router:** Conditional statements, AI model selection, token limits, and cost estimation.
 
 
 ## Tools & Technologies
