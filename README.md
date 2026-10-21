@@ -1,81 +1,38 @@
-# Python AI Development Journey
+# Python for AI
 
-## About Me
+**Abdul Ahad** | Python for AI Course
 
-**Name:** Abdul Ahad
-**Course:** Python for Artificial Intelligence
+## About This Project
+
+This repository documents my practical learning journey in Python, Generative AI, and AI automation through hands-on exercises and real-world applications.
 
 ## Career Goal
 
-My goal is to become a skilled Generative AI Engineer, developing intelligent and scalable AI solutions that automate business processes and solve real-world challenges.
+To become an **AI Automation Specialist**, developing intelligent solutions that streamline business operations, improve efficiency, and solve real-world challenges.
 
-## Project Overview
+## How to Run
 
-This repository documents my hands-on learning journey in Python, artificial intelligence, development tools, and local large language models using Ollama.
-
-## Technologies & Tools
-
-- Python
-- uv (Python package and project manager)
-- Git & GitHub
-- Ollama
-- Visual Studio Code
-- Node.js & npm
-
-## Getting Started
-
-**1. Clone the repository**
-
-Clone this repository from GitHub and open the project folder in VS Code.
-
-**2. Run the project**
+Run the project using:
 
 ```bash
 uv run main.py
 ```
 
-**3. Run Lesson 01**
+## Lessons Completed
 
-```bash
-uv run code/lesson_01_intro.py
-```
+- **1.1 — AI Career Introduction:** Python variables, f-strings, and career aspirations.
+- **1.2 — Toolkit Proof:** Development environment verification and first Ollama interaction.
+- **1.3 — Client-Ready Repository:** GitHub repository organization, documentation, and version control.
 
-## Completed Lessons
+## Tools & Technologies
 
-### Lesson 01 — AI Career Introduction
-
-- Created Python variables to store personal and career information.
-- Practiced printing formatted output using f-strings.
-- Defined an AI career goal and a real-world business problem.
-
-### Lesson 02 — AI Development Toolkit
-
-- Verified Python, uv, Git, Ollama, Node.js, and npm installations.
-- Documented installed development tool versions.
-- Ran the `gemma3:1b` model locally using Ollama.
-- Evaluated an AI-generated response about improving customer service.
-
-## Project Structure
-
-```text
-python-ai/
-├── code/
-│   ├── lesson_01_intro.py
-│   └── lesson_02_toolkit.py
-├── docs/
-│   ├── setup-check.png
-│   └── ollama-first-chat.md
-├── notebooks/
-├── main.py
-├── pyproject.toml
-├── uv.lock
-└── README.md
-```
-
-## Future Goals
-
-Continue developing practical skills in Python, Generative AI, LLMs, AI agents, and intelligent business automation.
+- Python
+- uv
+- Git & GitHub
+- Ollama (`gemma3:1b`)
+- Visual Studio Code
 
 ---
 
 **Author:** Abdul Ahad
+**Course:** Python for AI
