@@ -23,6 +23,10 @@ uv run main.py
 - **1.1 — AI Career Introduction:** Python variables, f-strings, and career aspirations.
 - **1.2 — Toolkit Proof:** Development environment verification and first Ollama interaction.
 - **1.3 — Client-Ready Repository:** GitHub repository organization, documentation, and version control.
+- **1.4 — Business Prompt Builder:** User input, f-strings, and personalized AI prompt generation.
+- **1.5 — AI Model Profile Card:** Python data types, type checking, and AI token cost calculations.
+- **1.6 — Prompt Cleaner:** String methods, text formatting, token estimation, and prompt optimization.
+
 
 ## Tools & Technologies
 
