@@ -18,6 +18,12 @@ Run the project using:
 uv run main.py
 ```
 
+To run an individual lesson:
+
+```bash
+uv run code/lesson_08_mini_chatbot.py
+```
+
 ## Lessons Completed
 
 - **1.1 — AI Career Introduction:** Python variables, f-strings, and career aspirations.
@@ -27,7 +33,38 @@ uv run main.py
 - **1.5 — AI Model Profile Card:** Python data types, type checking, and AI token cost calculations.
 - **1.6 — Prompt Cleaner:** String methods, text formatting, token estimation, and prompt optimization.
 - **1.7 — Smart Model Router:** Conditional statements, AI model selection, token limits, and cost estimation.
+- **1.8 — Business Helper Bot:** Rule-based chatbot, intent recognition, customer support, fallback AI prompts, and conversation tracking.
 
+## Task 1.8 — Business Helper Bot Design
+
+**Business:** AI Automation Services
+
+**Purpose:** To help customers get quick answers about AI services, pricing, business hours, and support requests.
+
+### Intent Design Table
+
+| Intent | Example Customer Message | Expected Bot Response |
+|---|---|---|
+| Complaint | my order is late | Sorry about that. Our manager will call you. |
+| Greeting | hi | Hello! How can I help you? |
+| Opening Hours | What are your HOURS? | We are open Monday to Saturday, 9 AM to 6 PM. |
+| Fees | how much is the fee | Our service fees start from PKR 5,000. |
+| Services | what services do you offer? | We offer AI chatbots and business automation. |
+| Order Status | track my order | Please contact our support team for your order status. |
+| Unknown Question | which one is best? | Fallback message with an AI prompt for Module 2. |
+| Empty Input | (press Enter) | Please type a question. |
+| Goodbye | BYE | Goodbye message and conversation summary. |
+
+*Business hours and fees are example values used for this learning project.*
+
+### Chatbot Features
+
+- Cleans customer messages for consistent intent recognition.
+- Prioritizes complaints before other requests.
+- Answers common business questions using predefined rules.
+- Generates AI prompts for unanswered questions.
+- Tracks total messages and unanswered questions.
+- Displays a conversation summary when the user exits.
 
 ## Tools & Technologies
 
