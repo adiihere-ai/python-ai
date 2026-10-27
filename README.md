@@ -10,15 +10,38 @@ This repository documents my practical learning journey in Python, Generative AI
 
 To become an **AI Automation Specialist**, developing intelligent solutions that streamline business operations, improve efficiency, and solve real-world challenges.
 
+## Prerequisites
+
+- Python 3.13
+- [uv](https://docs.astral.sh/uv/) package manager
+- [Ollama](https://ollama.com/) installed and running for AI-powered lessons
+- Git (for version control)
+
+## Setup
+
+From the project root, install the dependencies:
+
+```bash
+uv sync
+```
+
+Download the model used in Module 2:
+
+```bash
+ollama pull llama3.2
+```
+
+Make sure Ollama is running before executing the AI-powered lessons.
+
 ## How to Run
 
-Run the project using:
+Run the main project entry point:
 
 ```bash
 uv run main.py
 ```
 
-To run an individual lesson:
+Run an individual Module 1 lesson, for example:
 
 ```bash
 uv run code/lesson_08_mini_chatbot.py
@@ -36,6 +59,18 @@ uv run code/lesson_2_1_first_ai_call.py
 
 ```bash
 uv run code/lesson_2_2_chat_memory.py
+```
+
+**Task 2.3 — Persona Bot with Real Facts**
+
+```bash
+uv run code/lesson_2_3_persona_bot.py
+```
+
+**Task 2.4 — Batch Writer**
+
+```bash
+uv run code/lesson_2_4_batch_writer.py
 ```
 
 ## Lessons Completed
@@ -56,6 +91,9 @@ uv run code/lesson_2_2_chat_memory.py
 - **2.1 — AI Tutor:** LangChain and Ollama integration, personalized AI explanations, token usage tracking, and response time measurement.
 - **2.2 — Personal Tutor with Memory:** Conversation history management, memory limits, reset commands, token tracking, and question summaries.
 - **2.3 — Persona Bot with Real Facts:** Dictionary-based business facts, customizable AI personas, direct price lookup, and dynamic service updates.
+- **2.4 — Batch Writer:** Automated AI content generation using loops, dictionary iteration, conditional skipping, numbered results, and token/time tracking.
+
+*Tasks 2.3 and 2.4 use a fictional tuition academy, Bright Future Academy, to demonstrate fact-based responses, persona customization, and batch content generation. Task 1.8 uses a separate AI automation services business scenario.*
 
 ## Task 1.8 — Business Helper Bot Design
 
