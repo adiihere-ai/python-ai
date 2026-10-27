@@ -55,6 +55,7 @@ uv run code/lesson_2_2_chat_memory.py
 
 - **2.1 — AI Tutor:** LangChain and Ollama integration, personalized AI explanations, token usage tracking, and response time measurement.
 - **2.2 — Personal Tutor with Memory:** Conversation history management, memory limits, reset commands, token tracking, and question summaries.
+- **2.3 — Persona Bot with Real Facts:** Dictionary-based business facts, customizable AI personas, direct price lookup, and dynamic service updates.
 
 ## Task 1.8 — Business Helper Bot Design
 
