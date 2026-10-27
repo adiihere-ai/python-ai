@@ -24,7 +24,23 @@ To run an individual lesson:
 uv run code/lesson_08_mini_chatbot.py
 ```
 
+### Module 2 — AI Applications
+
+**Task 2.1 — AI Tutor**
+
+```bash
+uv run code/lesson_2_1_first_ai_call.py
+```
+
+**Task 2.2 — Personal Tutor with Memory**
+
+```bash
+uv run code/lesson_2_2_chat_memory.py
+```
+
 ## Lessons Completed
+
+### Module 1 — Python Fundamentals
 
 - **1.1 — AI Career Introduction:** Python variables, f-strings, and career aspirations.
 - **1.2 — Toolkit Proof:** Development environment verification and first Ollama interaction.
@@ -34,6 +50,11 @@ uv run code/lesson_08_mini_chatbot.py
 - **1.6 — Prompt Cleaner:** String methods, text formatting, token estimation, and prompt optimization.
 - **1.7 — Smart Model Router:** Conditional statements, AI model selection, token limits, and cost estimation.
 - **1.8 — Business Helper Bot:** Rule-based chatbot, intent recognition, customer support, fallback AI prompts, and conversation tracking.
+
+### Module 2 — AI Applications
+
+- **2.1 — AI Tutor:** LangChain and Ollama integration, personalized AI explanations, token usage tracking, and response time measurement.
+- **2.2 — Personal Tutor with Memory:** Conversation history management, memory limits, reset commands, token tracking, and question summaries.
 
 ## Task 1.8 — Business Helper Bot Design
 
@@ -71,7 +92,8 @@ uv run code/lesson_08_mini_chatbot.py
 - Python
 - uv
 - Git & GitHub
-- Ollama (`gemma3:1b`)
+- Ollama (`gemma3:1b`, `llama3.2`)
+- LangChain
 - Visual Studio Code
 
 ---
